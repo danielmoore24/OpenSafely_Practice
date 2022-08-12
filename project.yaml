@@ -21,8 +21,8 @@ actions:
   generate_cohort_stppop_map:
     run: cohortextractor:latest generate_cohort --study-definition study_definition_1_stppop_map --output-dir=output/cohorts
     outputs:
-    highly_sensitive:
-    cohort: output/cohorts/input_1_stppop_map.csv
+      highly_sensitive:
+        cohort: output/cohorts/input_1_stppop_map.csv
 
   plot_stppop_map:
     run: r:latest analysis/1-plot-stppop_map.R

@@ -15,7 +15,7 @@ study = StudyDefinition(
         "date": {
             "earliest": index_date,
             "latest": "today",
-        },   #date range for simulated dates
+        },  #date range for simulated dates
         "rate": "uniform",
         "incidence": 1,
     },

@@ -43,7 +43,7 @@ fs::dir_create(here::here("output", "plots"))
 ggsave(
     plot= plot_stppop_map,
     filename="plot_stppop_map.png", path=here::here("output","plots"),
-    units = "cm"
+    units = "cm",
     height = 10,
     width = 10
 )

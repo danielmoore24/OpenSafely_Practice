@@ -15,7 +15,7 @@ study = StudyDefinition(
         "date": {
             "earliest": index_date,
             "latest": "today",
-        },  
+        },
         "rate": "uniform",
         "incidence": 1,
     },
